@@ -1,0 +1,27 @@
+{
+  "name": "Pokedex-react",
+  "version": "1.0.0",
+  "description": "Aplicación web que permite buscar información de tu Pokémon favorito",
+  "scripts": {
+    "build": "browserify -t babelify ./source/app.js > ./public/js/build.js",
+    "server": "babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deivijt/pokedex-react"
+  },
+  "author": "Deivijt <davidjaimest@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deivijt/pokedex-react/issues"
+  },
+  "dependencies": {
+    "express": "^4.13.0",
+    "react": "^0.13.3",
+    "react-engine": "^1.7.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4"
+  }
+}
