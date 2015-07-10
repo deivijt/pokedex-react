@@ -22,8 +22,7 @@ export default class Index extends React.Component{
         		</div>
         	</header>
           <section id="container">
-            <h1>Genial! Hemos hecho el render inicial de nuestra App</h1>
-            <p>Ahora nuestra app se llevará muy bien con nuestro amigo el SEO :)</p>
+          
           </section>
           
           <script src="js/build.js"></script>
